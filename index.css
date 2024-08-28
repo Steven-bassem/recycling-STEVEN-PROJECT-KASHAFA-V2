@@ -1,0 +1,44 @@
+h1{
+    color: brown;
+    text-align: center;
+}
+
+
+h2{
+text-align: center;
+font-weight: 900;
+color: navy;
+}
+body{
+    background-color: lightgray;
+}
+
+
+div{
+  
+    width: 500px;
+    height: 500px;
+    border: 1px  silver ;
+    background-image:url(1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: photo;
+    animation-delay: 4s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes photo{
+    10%{background-image: url(2.jpg);}
+    40%{background-image: url(3.jpg);}
+    70%{background-image: url(4.jpg);}
+    90%{background-image: url(5.jpg);}
+    
+}
+h4{
+    color: blueviolet;
+    text-align: right;
+    
+
+}
+
